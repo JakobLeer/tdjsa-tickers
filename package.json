@@ -1,0 +1,26 @@
+{
+  "name": "tdjsa-tickers",
+  "version": "1.0.0",
+  "description": "Following \"Test Driving JavaScript Applications\" test driving the chapter 5 node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=lcov mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakobLeer/tdjsa-tickers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakobLeer/tdjsa-tickers/issues"
+  },
+  "homepage": "https://github.com/JakobLeer/tdjsa-tickers#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0"
+  }
+}
